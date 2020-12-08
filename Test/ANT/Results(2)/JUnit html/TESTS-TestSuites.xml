@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite failures="0" hostname="DESKTOP-1EE20RE" id="0" name="Test/tests" package="" skipped="0" tests="1" time="33.06" timestamp="Sat Dec 05 11:43:08 GMT 2020">
+	    <properties>
+		      <property name="excludeCallableTestCases" value="true" />
+
+		      <property name="testEnvironment" value="" />
+
+		      <property name="pluginOutputLevel" value="WARNING" />
+
+		      <property name="projectPath" value=".." />
+
+		      <property name="salesforceMetadataCache" value="Reuse" />
+
+		      <property name="resultsPathDisposition" value="Increment" />
+
+		      <property name="testOutputLevel" value="WARNING" />
+
+		      <property name="webBrowserType" value="Google Chrome Headless" />
+
+		      <property name="resultsPath" value="../ANT/Results" />
+
+		      <property name="webBrowserConfiguration" value="1920x1080" />
+
+		      <property name="projectCachePath" value="C:\Users\Sundar\Provar\Workspace1\Test\ANT\..\..\.provarCaches" />
+
+	    </properties>
+
+	    <testcase classname="tests/Test Case 3.testcase" name="Test Case 3.testcase" time="29.562">
+	</testcase>
+
+  </testsuite>
+</testsuites>
