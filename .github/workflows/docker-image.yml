@@ -21,8 +21,8 @@
 ## PROVAR_DEFAULT_VERSION is the full version name. This is either X.X.X.XX or latest.
 ARG PROVAR_DEFAULT_VERSION=latest
 ## PROVAR_MAJOR_VERSION is the major version of Provar, or the monthly release. This is either X.X.X or latest.
-ARG PROVAR_MAJOR_VERSION=latest
-## This should be your project's name 
+## ARG PROVAR_MAJOR_VERSION=latest
+## This should be your project's name
 ARG PROJECT_NAME=ProvarProject
 ## Email Build Report Target (remember to set this if you wish to email reports as part of your build)
 ARG EMAIL_TARGET
