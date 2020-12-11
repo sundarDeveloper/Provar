@@ -1,0 +1,33 @@
+# This is a basic workflow that is manually triggered
+
+name: Manual workflow
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on: push
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "greet"
+  greet:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up JDK 1.8
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+      - name: Setup Provar Home and Ant libs
+        run: 
+          mkdir ProvarHome
+          curl -O https://download.provartesting.com/latest/Provar_ANT_latest.zip
+          unzip -o Provar_ANT_latest.zip -d ProvarHome
+          export PROVAR_HOME="ProvarHome"
+          echo $PROVAR_HOME
+
+      - name: Build with Ant
+        run: ant -noinput -buildfile Demo_CareHub/ANT/build.xml
+    
