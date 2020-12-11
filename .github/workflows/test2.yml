@@ -38,6 +38,8 @@ jobs:
           
           echo $PROVAR_HOME
           
+          ENTRYPOINT ["bash"]
+          
 
       - name: Build with Ant
         
