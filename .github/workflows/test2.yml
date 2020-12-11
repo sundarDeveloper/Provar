@@ -36,10 +36,7 @@ jobs:
           
           export PROVAR_HOME="ProvarHome"
           
-          echo $PROVAR_HOME
-          
-          ENTRYPOINT ["bash"]
-          
+          echo $PROVAR_HOME      
 
       - name: Build with Ant
         
