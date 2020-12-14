@@ -19,17 +19,28 @@ jobs:
         run: |
           echo " pwd "
           pwd
+          
+          echo " ls "
           ls 
+          echo " pwd "
           cd Test
+          echo " cd Tes "
           ls
           docker build -t github_provar . 
       - name: list folders
         run: |
+          echo " pwd "
           pwd
+          echo " ls -Rd $PWD/* "
           ls -Rd $PWD/*
+          echo " cd .. "
           cd ..
+          echo " ls -ld -- */ "
           ls -ld -- */
+          echo " ls -Rd $PWD/*"
           ls -Rd $PWD/*
+          echo " cd ANT folder "
+          cd /srv/Provar/Provar_ANT_latest
           
           
     # -
