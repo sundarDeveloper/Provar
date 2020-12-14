@@ -26,12 +26,13 @@ jobs:
       - name: list folders
         run: |
           pwd
-          ls -ld -- */
+          ls -Rd $PWD/*
           cd ..
           ls -ld -- */
+          ls -Rd $PWD/*
           
           
-      -
-        name: Docker run
-        run: |
-          docker run -t --name github_provar github_provar
+    # -
+    #  name: Docker run
+    #    run: |
+    #     docker run -t --name github_provar github_provar
