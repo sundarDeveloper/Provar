@@ -29,6 +29,8 @@ jobs:
           
           mkdir ProvarHome
           curl -O https://download.provartesting.com/latest/Provar_ANT_latest.zip
+          
+          unzip -o Provar_ANT_latest.zip -d ProvarHome
          
           export PROVAR_HOME="ProvarHome"
           
