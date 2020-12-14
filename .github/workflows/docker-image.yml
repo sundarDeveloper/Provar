@@ -38,7 +38,7 @@ jobs:
           
            ls -Rd $PWD/* ProvarHome  
           echo "/srv/Provar/Provar_ANT_latest"
-          ls -l /srv/Provar/Provar_ANT_latest
+          ls -l /srv/
           cd Test
           docker build -t github_provar . 
           
