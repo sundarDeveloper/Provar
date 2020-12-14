@@ -25,7 +25,11 @@ jobs:
           docker build -t github_provar . 
       - name: list folders
         run: |
-          ls -l
+          ls 
+          cd/
+          ls
+          
+          
       -
         name: Docker run
         run: |
