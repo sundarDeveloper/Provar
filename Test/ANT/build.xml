@@ -1,6 +1,6 @@
 <project default="runtests">
 	<property environment="env"/>
-	<property name="testproject.home" value="/home/runner/work/Provar/Provar/srv/Provar/Provar_ANT_latest"/>
+	<property name="testproject.home" value="/home/runner/work/Provar/Provar/ProvarHome"/>
 	<property name="testproject.home.OLD" value="/srv/Provar/Provar_ANT_latest"/>
 	<property name="testproject.results" value="../ANT/Results"/>
 	<property name="secrets.password" value="${env.ProvarSecretsPassword}"/>
