@@ -23,7 +23,7 @@ jobs:
           cd Test
           ls
           docker build -t github_provar . 
-        -
-         name: Docker run
-         run: |
+      -
+        name: Docker run
+        run: |
           docker run -it --name github_provar github_provar
