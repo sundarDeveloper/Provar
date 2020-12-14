@@ -26,4 +26,4 @@ jobs:
       -
         name: Docker run
         run: |
-          docker run -it --name github_provar github_provar
+          docker run -t --name github_provar github_provar
