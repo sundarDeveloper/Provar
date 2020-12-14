@@ -62,18 +62,23 @@ jobs:
           
           echo "/home/runner/work/Provar/Provar/ProvarHome/ant/"
           ls -l /home/runner/work/Provar/Provar/ProvarHome/ant/
-          
+      -
+        name: Docker Build 2
+        run: |         
           cd Test
           
           echo " 1111 PWD cd Test "
           pwd
           echo " 1111 PWD cd Test "
+      -
+        name: Docker Build 3
+        run: |          
           docker build -t github_provar . 
           
-      - name: list folders
-        run: |
-          echo " pwd "
-          pwd
+      ## - name: list folders
+       ## run: |
+         ## echo " pwd "
+         ## pwd
           ## echo " ls -Rd $PWD/* "
           ## ls -Rd $PWD/*
           ## echo " cd .. "
