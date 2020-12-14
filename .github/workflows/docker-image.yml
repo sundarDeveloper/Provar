@@ -59,6 +59,10 @@ jobs:
           ## echo "ls -ld -- */ ProvarHome"
           ##ls -ld -- */ ProvarHome
           
+          
+          echo "/home/runner/work/Provar/Provar/ProvarHome/ant/"
+          ls -l /home/runner/work/Provar/Provar/ProvarHome/ant/
+          
           cd Test
           docker build -t github_provar . 
           
@@ -82,4 +86,8 @@ jobs:
       -
         name: Docker run
         run: |
-         docker run -t --name github_provar github_provar
+          echo "/home/runner/work/Provar/Provar/ProvarHome/ant/"
+          ls -l /home/runner/work/Provar/Provar/ProvarHome/ant/
+          docker run -t --name github_provar github_provar
+         
+         
