@@ -28,12 +28,16 @@ jobs:
           ## ls
           
           mkdir ProvarHome
-          docker build -t github_provar . 
-          
+          curl -O https://download.provartesting.com/latest/Provar_ANT_latest.zip
+         
           export PROVAR_HOME="ProvarHome"
           
           echo $PROVAR_HOME  
-          ls $PROVAR_HOME   
+          ls $PROVAR_HOME  
+          
+          cd Test
+          docker build -t github_provar . 
+          
       - name: list folders
         run: |
           echo " pwd "
