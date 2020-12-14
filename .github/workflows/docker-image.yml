@@ -55,7 +55,7 @@ jobs:
           #ls -Rd $PWD/*
           
           
-    # -
-    #  name: Docker run
-    #    run: |
-    #     docker run -t --name github_provar github_provar
+      -
+        name: Docker run
+        run: |
+         docker run -t --name github_provar github_provar
