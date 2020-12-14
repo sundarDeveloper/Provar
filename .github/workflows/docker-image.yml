@@ -15,4 +15,6 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       -
         name: Docker list
-        run: echo " pwd "
+        run: |
+          echo " pwd "
+          pwd
