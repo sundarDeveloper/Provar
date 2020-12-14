@@ -72,7 +72,8 @@ jobs:
           echo " 1111 PWD cd Test "
       -
         name: Docker Build 3
-        run: |          
+        run: |
+          cd /home/runner/work/Provar/Provar/Test          
           docker build -t github_provar . 
           
       ## - name: list folders
