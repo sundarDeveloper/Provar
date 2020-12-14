@@ -34,27 +34,27 @@ jobs:
          
           export PROVAR_HOME="ProvarHome"
           
-          echo $PROVAR_HOME  
+          ## echo $PROVAR_HOME  
           echo "ls $PROVAR_HOME  "
           ls $PROVAR_HOME  
           
-          echo " ls -Rd $PWD/* ProvarHome  "
-          ls -Rd $PWD/* ProvarHome  
+          ## echo " ls -Rd $PWD/* ProvarHome  "
+          ## ls -Rd $PWD/* ProvarHome  
           
           ## echo " ls -ld -- */  /srv/Provar/Provar_ANT_latest"
           ## ls -ld -- */   /srv/Provar/Provar_ANT_latest
           
-          echo " ls -ld -- */ /home/runner/work/Provar/Provar/ProvarHome "
-          ls -ld -- */ /home/runner/work/Provar/Provar/ProvarHome
+          ## echo " ls -ld -- */ /home/runner/work/Provar/Provar/ProvarHome "
+          ## ls -ld -- */ /home/runner/work/Provar/Provar/ProvarHome
           
-          echo "ls -l /home/runner/work/Provar/Provar/ProvarHome/"
-          ls -l /home/runner/work/Provar/Provar/ProvarHome/
+          ## echo "ls -l /home/runner/work/Provar/Provar/ProvarHome/"
+          ## ls -l /home/runner/work/Provar/Provar/ProvarHome/
           
           ## ls -ld -- */ /home/runner/work/Provar/Provar/ProvarHome/ProvarHome
           
           
-          echo "ls -ld -- */ ProvarHome"
-          ls -ld -- */ ProvarHome
+          ## echo "ls -ld -- */ ProvarHome"
+          ##ls -ld -- */ ProvarHome
           
           ## cd Test
           ## docker build -t github_provar . 
