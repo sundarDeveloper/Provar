@@ -36,6 +36,7 @@ jobs:
           echo "ls $PROVAR_HOME  "
           ls $PROVAR_HOME  
           
+           ls -Rd $PWD/* ProvarHome  
           cd Test
           docker build -t github_provar . 
           
