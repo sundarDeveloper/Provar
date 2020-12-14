@@ -56,8 +56,8 @@ jobs:
           ## echo "ls -ld -- */ ProvarHome"
           ##ls -ld -- */ ProvarHome
           
-          ## cd Test
-          ## docker build -t github_provar . 
+          cd Test
+          docker build -t github_provar . 
           
       - name: list folders
         run: |
