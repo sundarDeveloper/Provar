@@ -36,9 +36,9 @@ jobs:
           echo "ls $PROVAR_HOME  "
           ls $PROVAR_HOME  
           
-           ls -Rd $PWD/* ProvarHome  
-          echo "/srv/Provar/Provar_ANT_latest"
-          ls -l /srv/
+          ls -Rd $PWD/* ProvarHome  
+          echo " ls -ld -- */  /srv/Provar/Provar_ANT_latest"
+          ls -ld -- */   /srv/Provar/Provar_ANT_latest
           
           
           echo "ls -l ProvarHome"
