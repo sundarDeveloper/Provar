@@ -39,6 +39,8 @@ jobs:
           ls -Rd $PWD/* ProvarHome  
           echo " ls -ld -- */  /srv/Provar/Provar_ANT_latest"
           ls -ld -- */   /srv/Provar/Provar_ANT_latest
+          echo " ls -ld -- */ /home/runner/work/Provar/Provar/ProvarHome "
+          ls -ld -- */ /home/runner/work/Provar/Provar/ProvarHome
           
           
           echo "ls -l ProvarHome"
