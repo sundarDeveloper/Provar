@@ -98,9 +98,9 @@ jobs:
         run: |
           echo "/home/runner/work/Provar/Provar/ProvarHome/ant/"
           ls -l /home/runner/work/Provar/Provar/ProvarHome/ant/
-          cat /home/runner/work/Provar/Provar/Test/ANT/build.xml
+          ## cat /home/runner/work/Provar/Provar/Test/ANT/build.xml
           
-          run: ant -noinput -buildfile /home/runner/work/Provar/Provar/Test/ANT/build.xml 
-          ## docker run -t --name github_provar github_provar
+          ## run: ant -noinput -buildfile /home/runner/work/Provar/Provar/Test/ANT/build.xml 
+          docker run -t --name github_provar github_provar
          
          
