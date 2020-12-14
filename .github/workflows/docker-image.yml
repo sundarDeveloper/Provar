@@ -37,7 +37,8 @@ jobs:
           ## echo $PROVAR_HOME  
           echo "ls $PROVAR_HOME  "
           ls $PROVAR_HOME  
-          $PWD
+          echo "pwd"
+          pwd
           
           
           ## echo " ls -Rd $PWD/* ProvarHome  "
