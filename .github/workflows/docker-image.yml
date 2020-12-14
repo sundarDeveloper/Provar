@@ -33,6 +33,7 @@ jobs:
           export PROVAR_HOME="ProvarHome"
           
           echo $PROVAR_HOME  
+          echo "ls $PROVAR_HOME  "
           ls $PROVAR_HOME  
           
           cd Test
