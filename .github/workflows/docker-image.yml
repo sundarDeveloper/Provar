@@ -40,7 +40,8 @@ jobs:
           echo " ls -Rd $PWD/*"
           ls -Rd $PWD/*
           echo " cd ANT folder "
-          cd /srv/Provar/Provar_ANT_latest
+          cd /home/runner/work/Provar/Provar/Provar_ANT_latest
+          ls -Rd $PWD/*
           
           
     # -
