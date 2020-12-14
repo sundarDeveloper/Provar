@@ -45,8 +45,8 @@ jobs:
           echo " ls -ld -- */ /home/runner/work/Provar/Provar/ProvarHome "
           ls -ld -- */ /home/runner/work/Provar/Provar/ProvarHome
           
-          
-          ls -ld /home/runner/work/Provar/Provar/ProvarHome/
+          echo "ls -l /home/runner/work/Provar/Provar/ProvarHome/"
+          ls -l /home/runner/work/Provar/Provar/ProvarHome/
           
           ## ls -ld -- */ /home/runner/work/Provar/Provar/ProvarHome/ProvarHome
           
