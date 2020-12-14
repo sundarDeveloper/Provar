@@ -25,9 +25,10 @@ jobs:
           docker build -t github_provar . 
       - name: list folders
         run: |
-          ls 
+          pwd
+          ls -ld -- */
           cd ..
-          ls
+          ls -ld -- */
           
           
       -
