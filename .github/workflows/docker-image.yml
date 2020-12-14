@@ -20,28 +20,35 @@ jobs:
           echo " pwd "
           pwd
           
-          echo " ls "
-          ls 
-          echo " pwd "
-          cd Test
-          echo " cd Tes "
-          ls
+          ## echo " ls "
+          ## ls 
+          ## echo " pwd "
+          ## cd Test
+          ## echo " cd Tes "
+          ## ls
+          
+          mkdir ProvarHome
           docker build -t github_provar . 
+          
+          export PROVAR_HOME="ProvarHome"
+          
+          echo $PROVAR_HOME  
+          ls $PROVAR_HOME   
       - name: list folders
         run: |
           echo " pwd "
           pwd
-          echo " ls -Rd $PWD/* "
-          ls -Rd $PWD/*
-          echo " cd .. "
-          cd ..
-          echo " ls -ld -- */ "
-          ls -ld -- */
-          echo " ls -Rd $PWD/*"
-          ls -Rd $PWD/*
-          echo " cd ANT folder "
-          cd /home/runner/work/Provar/
-          ls -Rd $PWD/*
+          ## echo " ls -Rd $PWD/* "
+          ## ls -Rd $PWD/*
+          ## echo " cd .. "
+          ## cd ..
+          ## echo " ls -ld -- */ "
+          ## ls -ld -- */
+          ## echo " ls -Rd $PWD/*"
+          ## ls -Rd $PWD/*
+          ## echo " cd ANT folder "
+          ## cd /home/runner/work/Provar/
+          #ls -Rd $PWD/*
           
           
     # -
