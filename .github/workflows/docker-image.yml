@@ -45,11 +45,14 @@ jobs:
           echo " ls -ld -- */ /home/runner/work/Provar/Provar/ProvarHome "
           ls -ld -- */ /home/runner/work/Provar/Provar/ProvarHome
           
+          
+          ls -ld /home/runner/work/Provar/Provar/ProvarHome/
+          
           ## ls -ld -- */ /home/runner/work/Provar/Provar/ProvarHome/ProvarHome
           
           
-          echo "ls -l ProvarHome"
-          ls -l ProvarHome
+          echo "ls -ld -- */ ProvarHome"
+          ls -ld -- */ ProvarHome
           
           ## cd Test
           ## docker build -t github_provar . 
