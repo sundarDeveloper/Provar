@@ -15,7 +15,7 @@ jobs:
           username: ${{ secrets.DOCKER_USER }}
           password: ${{ secrets.DOCKER_PASSWORD }}
       -
-        name: Docker list
+        name: Docker Build
         run: |
           echo " pwd "
           pwd
@@ -23,4 +23,7 @@ jobs:
           cd Test
           ls
           docker build -t github_provar . 
+        -
+         name: Docker run
+         run: |
           docker run -it --name github_provar github_provar
